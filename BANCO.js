@@ -6,7 +6,7 @@ function accionradio(tipodefuncion){
 		darnumero();
 		break;
 		case 'dp':
-		alert('ejemplo de tipo de cuenta')
+		tipooperacion();
 		break;
 		default:
 		alert('ejemplo de nuemro de cuenta')
@@ -21,4 +21,20 @@ function darnumero(){
 			 var resultados= 'su turno es '+cedula+'-'+contador;
 			 contador=contador+1;
 			 alert(resultados)
-	}
+	
+}
+	
+function  tipooperacion(){
+	         var operacion= prompt('que operacion desea realizar');
+			 var tcuenta = prompt("número de cuenta");
+			 var resultado= 'usted ha '+operacion+' a su cuenta '+tcuenta;
+			 alert(resultado)
+	 }
+	
+
+	
+
+
+
+
+
